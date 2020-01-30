@@ -12,6 +12,7 @@ def load_classes(data='voc'):
     fname = path.dirname(path.abspath(__file__))
     fname = path.join(fname, 'data/{}.names'.format(data))
     print(fname)
+    print('PUTE')
     with open(fname) as f:
         classes = [l.strip() for l in f.readlines()]
     return classes
