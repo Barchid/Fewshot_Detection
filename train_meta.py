@@ -58,7 +58,7 @@ steps         = [float(step) for step in net_options['steps'].split(',')]
 scales        = [float(scale) for scale in net_options['scales'].split(',')]
 
 #Train parameters
-use_cuda      = True
+use_cuda      = False # TODO : change
 seed          = int(time.time())
 eps           = 1e-5
 dot_interval  = 70  # batches
