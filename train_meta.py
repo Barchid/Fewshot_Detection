@@ -84,6 +84,7 @@ if use_cuda:
 model       = Darknet(darknetcfg, learnetcfg)
 region_loss = model.loss
 
+print(weightfile)
 model.load_weights(weightfile)
 model.print_network()
 
