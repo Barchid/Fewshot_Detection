@@ -10,4 +10,4 @@ meta = data/voc_traindict_full.txt
 train = DATA_ROOT/voc_train.txt
 valid = DATA_ROOT/2007_test.txt
 backup = backup/metayolo
-gpus=1
+gpus=0
